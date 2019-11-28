@@ -5,6 +5,10 @@ body{
   background-repeat:no-repeat;
   background-size: 100% 150%;
   font-family:Sans-Serif;
+	display: flex;
+flex-direction: column; /* creates rows out of the elements main and footer */
+height: 100vh;
+margin:0;
 /*  animation: mymove 5s ease infinite;*/
 }
 
