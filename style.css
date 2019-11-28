@@ -21,11 +21,11 @@ h1 {
   height: 80px;
 }
 
-
+/*
 h1:hover {
   color: black;
   transition: color 3s;
-}
+}*/
 .text{
   color: white;
 }
