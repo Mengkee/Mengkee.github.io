@@ -1,0 +1,85 @@
+body{
+  /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: url(cat.jpg);*/
+  background: url(me3.gif);
+  background-repeat:no-repeat;
+  background-size: 100% 150%;
+  font-family:Sans-Serif;
+/*  animation: mymove 5s ease infinite;*/
+}
+
+/*  -webkit-animation: mymove 5s infinite;
+    animation: mymove 5s infinite;*/
+h1 {
+  color: White;
+}
+
+
+h1:hover {
+  color: black;
+  transition: color 3s;
+}
+.text{
+  color: white;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;  /* make main axis vertical */
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;
+   height: 70vh; /*What does height mean?*/
+   font-size: 300%;
+   font-family: "Comic Sans MS", cursive, sans-serif;
+   animation: text 3s;
+}
+
+.delay{
+  display: flex;
+  flex-direction: column;  /* make main axis vertical */
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;
+   height: 0vh; /*What does height mean?*/
+   font-size: 150%;
+}
+
+.delay:hover{
+  font-size: 200%;
+
+}
+#banner{
+  border: 1vw solid
+}
+
+
+/*If you preset your background color, you cannot change it*/
+@-webkit-keyframes mymove {
+	0% {background-color: black;}
+	50% {background-color: lightgreen;}
+  100% {background-color: lightgreen;}
+}
+
+@keyframes mymove {
+  0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+@keyframes text {
+  0% {
+		 opacity: 0;
+	}
+	50% {
+		 opacity: 0.5;
+	}
+	100% {
+	  opacity: 1;
+	}
+}
