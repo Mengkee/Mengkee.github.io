@@ -1,0 +1,109 @@
+body{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-repeat:no-repeat;
+  background-size: 100% 150%;
+  font-family:Sans-Serif;
+  display: flex;
+flex-direction: column; /* creates rows out of the elements main and footer */
+height: 100vh;
+margin:0;
+}
+
+
+/*  -webkit-animation: mymove 5s infinite;
+    animation: mymove 5s infinite;*/
+h1 {
+   margin-top: 0;
+  color: White;
+  display: flex;
+  flex-direction: column;  /* make main axis vertical */
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 80px;
+}
+
+
+h1:hover {
+  color: black;
+  transition: color 3s;
+}
+.text{
+  color: white;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;  /* make main axis vertical */
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color:white;
+  font-family:"Brush Script MT";
+  font-size: 200%;
+  background-size: 100% 150%;
+  height: 100px;
+}
+.flex{
+  background: -webkit-radial-gradient(circle, #00ffbf	, #ff4000);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  display: flex;
+  flex-direction: column;  /* make main axis vertical */
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;
+   height: 70vh; /*What does height mean?*/
+   font-size: 300%;
+   font-family: "Comic Sans MS", cursive, sans-serif;
+   animation: text 17s;
+}
+
+.delay{
+  display: flex;
+  flex-direction: column;  /* make main axis vertical */
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;
+   height: 0vh; /*What does height mean?*/
+   font-size: 150%;
+}
+
+.delay:hover{
+  font-size: 200%;
+
+}
+#banner{
+  border: 1vw solid
+}
+
+
+/*If you preset your background color, you cannot change it*/
+@-webkit-keyframes mymove {
+	0% {background-color: black;}
+	50% {background-color: lightgreen;}
+  100% {background-color: lightgreen;}
+}
+
+@keyframes mymove {
+  0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+@keyframes text {
+  0% {
+    background: -webkit-radial-gradient(circle, #000000	, #000000);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+	}
+	100% {
+    background: -webkit-radial-gradient(circle, #00ffbf	, #ff4000);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
