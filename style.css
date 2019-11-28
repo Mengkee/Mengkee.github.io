@@ -5,17 +5,18 @@ body{
   background-repeat:no-repeat;
   background-size: 100% 150%;
   font-family:Sans-Serif;
-	display: flex;
+/*  animation: mymove 5s ease infinite;*/
+display: flex;
 flex-direction: column; /* creates rows out of the elements main and footer */
 height: 100vh;
 margin:0;
-/*  animation: mymove 5s ease infinite;*/
 }
+
 
 /*  -webkit-animation: mymove 5s infinite;
     animation: mymove 5s infinite;*/
 h1 {
-   margin-top: 0;
+  margin-top: 0;
   color: White;
   display: flex;
   flex-direction: column;  /* make main axis vertical */
@@ -25,11 +26,6 @@ h1 {
   height: 80px;
 }
 
-/*
-h1:hover {
-  color: black;
-  transition: color 3s;
-}*/
 .text{
   color: white;
 }
@@ -44,7 +40,7 @@ footer{
   font-family:"Brush Script MT";
   font-size: 200%;
   background-size: 100% 150%;
-  height: 90px;
+  height: 100px;
 
 
 }
