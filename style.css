@@ -11,6 +11,7 @@ body{
 /*  -webkit-animation: mymove 5s infinite;
     animation: mymove 5s infinite;*/
 h1 {
+   margin-top: 0;
   color: White;
   display: flex;
   flex-direction: column;  /* make main axis vertical */
