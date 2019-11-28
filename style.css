@@ -60,8 +60,10 @@ footer{
 
 .delay{
   display: flex;
+  flex-direction: column;  /* make main axis vertical */
+  justify-content: center; /* center items vertically, in this case */
   align-items: center;
-   height: 0vh; /*What does height mean?*/
+   height: 25vh; /*What does height mean?*/
    font-size: 150%;
 }
 
