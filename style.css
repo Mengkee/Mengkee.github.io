@@ -1,7 +1,7 @@
 body{
-  /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
-  /*background: url(cat.jpg);*/
-   background: url(me.gif);
+  /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: url(cat.jpg);*/
+  background: url(me.gif);
   background-repeat:no-repeat;
   background-size: 100% 150%;
   font-family:Sans-Serif;
@@ -12,6 +12,12 @@ body{
     animation: mymove 5s infinite;*/
 h1 {
   color: White;
+  display: flex;
+  flex-direction: column;  /* make main axis vertical */
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 70px;
 }
 
 
@@ -23,7 +29,24 @@ h1:hover {
   color: white;
 }
 
+footer{
+  display: flex;
+  flex-direction: column;  /* make main axis vertical */
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color:white;
+  font-family:"Brush Script MT";
+  font-size: 200%;
+  background-size: 100% 150%;
+  height: 90px;
+
+
+}
 .flex{
+  background: -webkit-radial-gradient(circle, #00ffbf	, #ff4000);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
   display: flex;
   flex-direction: column;  /* make main axis vertical */
   justify-content: center; /* center items vertically, in this case */
@@ -31,7 +54,7 @@ h1:hover {
    height: 70vh; /*What does height mean?*/
    font-size: 300%;
    font-family: "Comic Sans MS", cursive, sans-serif;
-   animation: text 3s;
+   animation: text 17s;
 }
 
 .delay{
@@ -74,12 +97,12 @@ h1:hover {
 
 @keyframes text {
   0% {
-		 opacity: 0;
-	}
-	50% {
-		 opacity: 0.5;
+    background: -webkit-radial-gradient(circle, #000000	, #000000);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 	}
 	100% {
-	  opacity: 1;
-	}
+    background: -webkit-radial-gradient(circle, #00ffbf	, #ff4000);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
