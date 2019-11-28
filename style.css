@@ -1,7 +1,7 @@
 body{
   /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
-  background: url(cat.jpg);
-   /*background: url(2019-11-28-17-23-48.gif);*/
+  /*background: url(cat.jpg);*/
+   background: url(me.gif);
   background-repeat:no-repeat;
   background-size: 100% 150%;
   font-family:Sans-Serif;
